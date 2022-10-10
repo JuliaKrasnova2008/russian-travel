@@ -1,0 +1,30 @@
+.place__about {
+  padding: 0;
+  margin: 0;
+  margin-left: 16px;
+  margin-right: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+@media (min-width: 768px) {
+  .place__about {
+    grid-area: about;
+    margin: 0;
+    padding: 0;
+    min-width: 352px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__about {
+    min-width: 456px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .place__about {
+    min-width: 484px;
+  }
+}

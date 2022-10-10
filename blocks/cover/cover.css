@@ -1,0 +1,27 @@
+.cover {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 64px;
+  font-family: 'Inter';
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+  .cover {
+    margin-bottom: 88px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover {
+    margin-bottom: 92px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cover {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}

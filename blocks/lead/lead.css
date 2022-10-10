@@ -1,0 +1,29 @@
+.lead {
+  margin: 0;
+  margin-bottom: 64px;
+  padding: 0;
+  font-family: 'Inter', serif;
+  font-style: normal;
+}
+
+@media (min-width: 768px) {
+  .lead {
+    margin-bottom: 88px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .lead {
+    margin: 0 48px 92px 48px;
+  }
+
+}
+
+@media (min-width: 1280px) {
+  .lead {
+    margin-left: 148px;
+    margin-right: 148px;
+  }
+
+}

@@ -1,0 +1,24 @@
+.footer {
+  font-family: 'Inter';
+  font-style: normal;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0 0 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 0 24px 24px 24px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding: 0 48px 24px 48px;
+  }
+}

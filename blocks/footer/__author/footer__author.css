@@ -1,0 +1,15 @@
+.footer__author {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+}
+
+@media (min-width: 768px) {
+  .footer__author {
+    font-size: 14px;
+    line-height: 114%;
+  }
+}
