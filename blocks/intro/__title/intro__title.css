@@ -3,9 +3,11 @@
   font-size: 32px;
   line-height: 109%;
   padding: 0;
+  margin: 0;
   margin-bottom: 40px;
   text-align: left;
   max-width: 250px;
+  color: inherit;
 }
 
 @media (min-width: 768px) {

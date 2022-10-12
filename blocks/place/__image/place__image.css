@@ -3,7 +3,7 @@
   object-fit: cover;
   padding: 0;
   margin: 0;
-  margin-bottom: 32px;
+  margin-bottom: 30px;
 }
 
 @media (min-width: 768px) {
@@ -11,5 +11,17 @@
     grid-area: image;
     margin: 0;
     object-fit: contain;
+  }
+}
+
+@media (min-width: 1024px) {
+  .place__image {
+    width: 440px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .place__image {
+    width: 460px;
   }
 }
