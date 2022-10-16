@@ -1,5 +1,4 @@
 .intro {
-  font-family: 'Inter', serif;
   font-style: normal;
   color: #FFFFFF;
   padding: 0;
@@ -8,14 +7,16 @@
 
 @media (min-width: 768px) {
   .intro {
-    margin: 0 24px 88px 24px;
+    margin-right: 24px;
+    margin-bottom: 88px;
+    margin-left: 24px;
     width: 720px;
   }
 }
 
 @media (min-width: 1024px) {
   .intro {
-    margin: 0;
+    margin-right: 0;
     margin-left: 48px;
     margin-bottom: 92px;
     width: 690px;

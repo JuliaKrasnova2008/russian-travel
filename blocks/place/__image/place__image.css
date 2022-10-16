@@ -9,8 +9,8 @@
 @media (min-width: 768px) {
   .place__image {
     grid-area: image;
-    margin: 0;
     object-fit: contain;
+    width: 340px;
   }
 }
 

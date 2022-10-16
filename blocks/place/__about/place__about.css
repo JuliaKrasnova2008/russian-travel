@@ -11,9 +11,8 @@
 @media (min-width: 768px) {
   .place__about {
     grid-area: about;
-    margin: 0;
-    padding: 0;
     min-width: 352px;
+    margin: 0;
   }
 }
 

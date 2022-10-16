@@ -19,8 +19,6 @@
 
 @media (min-width: 768px) {
   .cover__subtitle {
-    font-size: 18px;
     line-height: 122%;
-    max-width: 360px;
   }
 }
